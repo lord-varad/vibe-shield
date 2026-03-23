@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vibeshield": {
+      "command": "/home/samartha/vibe-shield/venv/bin/python",
+      "args": ["/home/samartha/vibe-shield/server.py"],
+      "env": {}
+    }
+  }
+}
