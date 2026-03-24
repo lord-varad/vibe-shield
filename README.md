@@ -1,6 +1,6 @@
 # VibeShield MCP Server
 
-VibeShield is an open-source MCP (Model Context Protocol) server that now includes a **Silent Guardian** mode for invisible, background security. It provides automated code auditing and secret detection to ensure AI-generated output is safe before it reaches the user.
+VibeShield is an open-source MCP (Model Context Protocol) server that includes a **Silent Guardian** for invisible, background security. It provides automated code auditing and secret detection to ensure AI-generated output is safe before it reaches the user.
 
 ## Features
 
