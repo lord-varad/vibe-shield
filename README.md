@@ -49,7 +49,6 @@ Scans for leaked API keys, credentials, and tokens using `trufflehog`.
 ### `show_shield_report`
 Displays a professional security report in the terminal including:
 - **Total Scans Conducted** vs. **Silent Fixes Applied**.
-- Current **Security Karma** level (from *Vigilant Initiate* to *Cyber-Chakra Master*).
 
 ### `get_engine_status`
 Verifies if `semgrep` and `trufflehog` are properly installed and accessible.
