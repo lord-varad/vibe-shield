@@ -1,3 +1,7 @@
+# WARNING: This file is INTENTIONALLY insecure for demonstration and testing purposes only.
+# NEVER use this pattern in production code.
+# The code below is vulnerable to command injection.
+
 import subprocess
 import os
 

@@ -37,8 +37,8 @@ def install_shield():
     new_config = {
         "mcpServers": {
             "vibeshield": {
-                "command": "/home/samartha/vibe-shield/venv/bin/python",
-                "args": ["/home/samartha/vibe-shield/server.py"],
+                "command": sys.executable,
+                "args": [str(Path(__file__).resolve().parent / "server.py")],
                 "env": {}
             }
         }

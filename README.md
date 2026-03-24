@@ -53,6 +53,14 @@ Displays a professional security report in the terminal including:
 ### `get_engine_status`
 Verifies if `semgrep` and `trufflehog` are properly installed and accessible.
 
+## Examples
+The `examples/` directory contains sample files for testing and demonstration:
+- `insecure_sample.py`: Demonstrates code injection via `eval()`.
+- `security_test.py`: Demonstrates command injection vulnerabilities.
+- `secrets.example.txt`: A template for safe secret management.
+
+**WARNING:** The Python files in the `examples/` directory are intentionally insecure and should only be used for testing the VibeShield security tools.
+
 ## Requirements
 
 - Python 3.10+
